@@ -25,6 +25,15 @@ const Contact = (props) => {
                     <div class="text-address">
                       <h3>Address</h3>
                       <p>{data.address}</p>
+                      {/* {data.add.map((address) => {
+                        return (
+                          <>
+                            <h4>{address.no}</h4>
+                            <h5>{address.street}</h5>
+                            <p>{address.locality}</p>
+                          </>
+                        ); 
+                      })}*/}
                     </div>
                   </div>
 

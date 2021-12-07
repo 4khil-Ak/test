@@ -3,12 +3,17 @@
 .login form {
 	width: 280px;
 	height: 260px;
-	margin: 200px auto;
+	position: absolute;
+	margin: auto;
 	background: white;
 	border-radius: 3px;
-	box-shadow: 0 0 10px rgba(0,0,0, .4); 
+	box-shadow: 0 0 10px rgba(0,0,0, .4);
 	text-align: center;
 	padding-top: 1px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .login form.register{																				/* Register .login form height */
